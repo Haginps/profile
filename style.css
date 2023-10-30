@@ -1,0 +1,95 @@
+body {
+  background-color: lightgrey;
+}
+
+.container {
+  background: white;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid lightgrey;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  border: 1px solid lightgrey;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.card h1 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.card h2 {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.card p {
+  font-size: 16px;
+  margin: 20px 0;
+}
+
+.card .button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.card .button:hover {
+  background-color: #0056b3;
+}
+
+.card .social-links {
+  list-style: none;
+  padding: 0;
+  margin-right: 10px;
+}
+
+.card .social-links li {
+  display: inline;
+}
+
+.container a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.image {
+  width: 125px;
+  height: 125px;
+  border-radius: 40%;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
